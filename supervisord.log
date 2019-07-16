@@ -1,0 +1,30 @@
+2019-07-16 04:34:52,420 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-07-16 04:34:52,436 INFO supervisord started with pid 1
+2019-07-16 04:34:53,445 INFO spawned: 'sshd' with pid 8
+2019-07-16 04:34:53,455 INFO spawned: 'apache2' with pid 9
+2019-07-16 04:34:54,593 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-16 04:34:54,595 INFO success: apache2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-16 04:36:22,429 WARN received SIGTERM indicating exit request
+2019-07-16 04:36:22,431 INFO waiting for sshd, apache2 to die
+2019-07-16 04:36:22,501 INFO stopped: apache2 (exit status 0)
+2019-07-16 04:36:22,538 INFO stopped: sshd (exit status 0)
+2019-07-16 04:53:19,580 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-07-16 04:53:19,604 INFO supervisord started with pid 1
+2019-07-16 04:53:20,615 INFO spawned: 'sshd' with pid 8
+2019-07-16 04:53:20,628 INFO spawned: 'apache2' with pid 9
+2019-07-16 04:53:21,753 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-16 04:53:21,755 INFO success: apache2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-16 08:03:27,076 WARN received SIGTERM indicating exit request
+2019-07-16 08:03:27,099 INFO waiting for sshd, apache2 to die
+2019-07-16 08:03:27,338 INFO stopped: apache2 (exit status 0)
+2019-07-16 08:03:27,364 INFO stopped: sshd (exit status 0)
+2019-07-16 09:27:17,629 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-07-16 09:27:17,667 INFO supervisord started with pid 1
+2019-07-16 09:27:18,675 INFO spawned: 'sshd' with pid 8
+2019-07-16 09:27:18,678 INFO spawned: 'apache2' with pid 9
+2019-07-16 09:27:20,100 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-16 09:27:20,100 INFO success: apache2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-16 09:46:01,429 WARN received SIGTERM indicating exit request
+2019-07-16 09:46:01,431 INFO waiting for sshd, apache2 to die
+2019-07-16 09:46:01,470 INFO stopped: apache2 (exit status 0)
+2019-07-16 09:46:01,487 INFO stopped: sshd (exit status 0)
