@@ -11,7 +11,7 @@ module.exports = {
     '^.+\\.jsx?$': '<rootDir>/node_modules/babel-jest'
   },
   moduleNameMapper: {
-    '^@/(.*)$': '<rootDir>/src/$1'
+    '^@/(.*)$': '<rootDir>/resources/src/$1'
   },
   snapshotSerializers: [
     'jest-serializer-vue'
@@ -21,10 +21,10 @@ module.exports = {
     '<rootDir>/tests/unit/Dashboard.spec.js'
   ],
   verbose: true,
-  testURL: "http://localhost/",
+  testURL: "http://zili.admin.com/",
   collectCoverage: true,
   collectCoverageFrom: [
-      "src/**/*.{js,vue}",
+      "resources/src/**/*.{js,vue}",
       "!**/node_modules/**"
   ],
   coverageReporters: ["html", "text-summary"]

@@ -28,3 +28,9 @@
 2019-07-16 09:46:01,431 INFO waiting for sshd, apache2 to die
 2019-07-16 09:46:01,470 INFO stopped: apache2 (exit status 0)
 2019-07-16 09:46:01,487 INFO stopped: sshd (exit status 0)
+2019-07-17 03:38:12,973 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-07-17 03:38:13,005 INFO supervisord started with pid 1
+2019-07-17 03:38:14,013 INFO spawned: 'sshd' with pid 8
+2019-07-17 03:38:14,025 INFO spawned: 'apache2' with pid 9
+2019-07-17 03:38:15,540 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-07-17 03:38:15,541 INFO success: apache2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)

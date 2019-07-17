@@ -36,7 +36,7 @@
 </template>
 
 <script>
-import { shuffleArray } from '@/shared/utils'
+import { shuffleArray } from '../../shared/utils'
 import cTable from './Table.vue'
 
 const someData = () => shuffleArray([
